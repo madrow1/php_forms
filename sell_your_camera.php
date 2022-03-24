@@ -1,3 +1,19 @@
+<?php
+$hostname = "localhost";
+$username = "peter_walnes";
+$password = "iunaewrioyunserlkun";
+$database = "peter_walnes";
+
+$dbconnect=mysqli_connect($hostname,$username,$password,$database);
+
+if ($dbconnect->connect_error) {
+    die("Database connection has failed: " . $dbconnect->connect_error);
+}
+
+?>
+
+<!DOCTYPE html>
+
 <html>
 <body>
 
