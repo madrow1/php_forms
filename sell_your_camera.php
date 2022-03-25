@@ -4,8 +4,10 @@
   
 <head>
     <title></title>
+    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css" type="text/css">
 </head>
-  
+
+
 <body>
     <center>
         <h1>Sell Your Camera</h1>
