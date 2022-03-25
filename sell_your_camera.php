@@ -22,7 +22,10 @@
                 <label for="email">Email Address:</label>
                 <input type="text" name="email" id="email">
             </p>
-  
+<p>
+                <label for="camera">Camera:</label>
+                <input type="camera" name="camera" id="camera">
+            </p>
   
               
             <input type="submit" value="Submit">
