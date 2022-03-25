@@ -4,13 +4,13 @@
   
 <head>
     <title></title>
-    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 
 <body>
     <center>
-        <h1>Sell Your Camera</h1>
+        <h1 class="title">Sell Your Camera</h1>
   
         <form action="insert.php" method="post">
               
