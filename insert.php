@@ -1,9 +1,6 @@
-
 <?php
-$hostname = "localhost";
-$username = "peter_walnes";
-$password = "iunaewrioyunserlkun";
-$database = "peter_walnes";
+
+include 'db_config.php';
 
 $admin_mail = "rowan@positive-internet.com";
 
