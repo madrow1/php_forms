@@ -75,7 +75,7 @@ mysqli_close($conn);
 mail($admin_mail, 'Peterwalnes.com', 'Thank you for registering with us');
 
 } else { 
-	die;
+	echo ("<h2 class=title> The details you have entered cannot be validated.</h2>");
 }
 
 
