@@ -42,7 +42,7 @@ mail($admin_mail, 'Peterwalnes.com', 'Thank you for registering with us');
   
 <head>
     <title></title>
-    <link rel="stylesheet" href="https://www.w3schools.com/html/styles.css" type="text/css">
+    <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
 </html>
