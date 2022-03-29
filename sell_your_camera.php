@@ -26,7 +26,7 @@
             </p>
 <p>
                 <label for="camera">Camera:</label>
-                <input type="camera" name="camera" id="camera">
+                <input type="text" name="camera" id="camera">
             </p>
   
               
