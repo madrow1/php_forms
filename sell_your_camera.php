@@ -10,8 +10,10 @@
 
 <body>
     <center>
-        <h1 class="title">Sell Your Camera</h1>
-  
+        <h1>
+        <img class="title" src="walnesbanner.png" alt="Peter Walnes Cameras"/>
+        </h1>
+
         <form action="insert.php" method="post">
               
         <h2 class="subtitle">Do you have any camera equipment you might want to sell? Please use this online form to tell us what you have. We will get back to you with our buying price.</h2> 
@@ -22,16 +24,17 @@
             </p>
         
 <p>
-                <label for="email">Email Address:</label>
+                <label for="email">Email:</label>
                 <input type="text" name="email" id="email">
             </p>
 <p>
                 <label for="camera">Camera:</label>
-                <input type="text" name="camera" id="camera">
+                <input class="large_box" type="text" name="camera" id="camera">
             </p>
   
-              
-            <input type="submit" value="Submit">
+<p>              
+            <input class="button" type="submit" value="Submit your details">
+            </p>
         </form>
     </center>
 </body>
