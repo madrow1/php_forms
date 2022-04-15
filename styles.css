@@ -66,3 +66,10 @@ p {
     height: 50px;
 }
 
+h3 { 
+    text-align: center;
+    font-family: sans-serif;
+    padding: 0px 10px;
+    margin: 10px 10px;
+    color: rgb(65, 65, 65);
+}

@@ -37,6 +37,10 @@
             </p>
         </form>
     </center>
+
+<footer> 
+    <h3> Check out our stock of cameras at <a href="https://peterwalnes.com/"> https://peterwalnes.com/ </a> </h3>
+</footer> 
 </body>
   
 </html>

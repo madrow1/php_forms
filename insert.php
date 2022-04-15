@@ -3,6 +3,7 @@
 include 'db_config.php';
 
 $admin_mail = "rowan@positive-internet.com";
+$headers = 'From:' . $admin_mail;
 
 $conn = mysqli_connect($hostname,$username,$password,$database);
 		
@@ -63,7 +64,7 @@ $sql = "INSERT INTO sell_your_camera (name_id,name,email,camera) VALUES (NULL,'$
 	'$email','$camera')";
 		
 if(mysqli_query($conn, $sql)){
-	echo nl2br("Thank you $name, we have registered your interest and will be in contact");
+	echo ("<h2 class=title> Thank you $name, we have registered your interest and will be in contact. </h2>");
 } else{
 	echo "ERROR: $sql. "
 		. mysqli_error($conn);
@@ -72,7 +73,7 @@ if(mysqli_query($conn, $sql)){
 // Close connection
 mysqli_close($conn);
 
-mail($admin_mail, 'Peterwalnes.com', 'Thank you for registering with us');
+mail($admin_mail, 'Peterwalnes.com', 'Thank you for registering with us', $headers);
 
 } else { 
 	echo ("<h2 class=title> The details you have entered cannot be validated.</h2>");
