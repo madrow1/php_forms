@@ -28,7 +28,7 @@
                 <input type="text" name="email" id="email">
             </p>
 <p>
-                <label for="camera">Camera:</label>
+                <label for="camera">Camera Items:</label>
                 <input class="large_box" type="text" name="camera" id="camera">
             </p>
   
