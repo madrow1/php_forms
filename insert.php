@@ -41,7 +41,7 @@ if ($email) {
 		$errors['email'] = EMAIL_INVALID;
 	}
 	} else {
-		$errors['email'] = CAMERA_REQUIRED;
+		$errors['email'] = EMAIL_REQUIRED;
 }
 
 // Santitize camera
